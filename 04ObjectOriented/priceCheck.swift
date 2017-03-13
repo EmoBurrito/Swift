@@ -20,4 +20,5 @@ func priceCheck (price : Double, quantity qty : Int = 1, taxRate rate : Float = 
 	}
 }
 
-print(priceCheck(price : 7.2, quantity : 4, taxRate : 0.04)!)
+print(priceCheck(price : 7.2, quantity : 4, taxRate : 0.04) as Any)
+print(priceCheck(price : -45, quantity : 4, taxRate : 0.04) as Any)
